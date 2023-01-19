@@ -8,17 +8,27 @@ All interfaces that satisfy that definition can be implemented through a lambda 
         Function<T, R> which has a R apply(T t)
         Predicate<T> which as a boolean test(T t)
  */
-//https://www.geeksforgeeks.org/functional-interfaces-java/?ref=gcse
+//https://www.geeksforgeeks.org/java-8-consumer-interface-in-java-with-examples/?ref=gcse
 
+import java.util.List;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
-public class Functional_Interface_demo {
+public class Consumer_functionalInterface {
     public static void main(String[] args) {
         Consumer<Integer> d = (a) -> System.out.println(a);
         d.accept(1);
 
-        BiConsumer<Integer , Integer> bi = (a, b) -> System.out.println(a+b);
-        bi.accept(2,3);
+        BiConsumer<Integer, Integer> bi = (a, b) -> System.out.println(a + b);
+        bi.accept(2, 3);
+
+        Consumer<List<String>> consumer = list -> {
+            for (String str : list) {
+                System.out.println(str + "i");
+            }
+        };
+        List<String> ll = List.of("John", "is ", "good");
     }
 }
