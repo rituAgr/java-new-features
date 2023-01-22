@@ -58,6 +58,8 @@ public class Java_Stream_prac {
         System.out.println("Sum is "+stats.getSum());
         System.out.println("Avg is "+stats.getAverage());
     }
+
+    //
     private static void autoboxing_Unboxing_IntStream(){
         Stream<Integer> s = IntStream.range(1,11).boxed();
         s.forEach(i-> System.out.println(i));

@@ -13,22 +13,22 @@
 8. Nashorn, JavaScript Engine
 
 
-### TO DO - 
-Stream and boxed
-Iteraltorinf a list while modifying it via iterator
-auto boxing, unboxing
+### TO DO -
+Iteraltoring a list while modifying it via iterator
 
 ### Done -
 * Default and static methods in the interface
 * Function and BiFunction functional Interface
 * Functional interface
-*  Lambda Expression
+* Lambda Expression
+* Stream API
 
 #### Links -
 * [Default Method in interface](https://www.geeksforgeeks.org/default-methods-java/)
 * [Static methods in interface](https://www.geeksforgeeks.org/static-method-in-interface-in-java/?ref=gcse)
 * [Functional Interface or SAM(Single Abstract Method) interfaces](https://www.geeksforgeeks.org/functional-interfaces-java/?ref=gcse)\
-#### [Access modifier for interface](https://www.geeksforgeeks.org/access-modifiers-for-classes-or-interfaces-in-java/?ref=rp)
+* [Access modifier for interface](https://www.geeksforgeeks.org/access-modifiers-for-classes-or-interfaces-in-java/?ref=rp)
+* [Optional](https://www.geeksforgeeks.org/java-8-optional-class/)
 
 #### Function
 * [`Function` functional interface](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/?ref=gcse)
@@ -64,16 +64,23 @@ Note that lambda expressions can only be used to implement functional interfaces
 * [Difference between IntStream & Stream<Integer>](https://stackoverflow.com/questions/64974871/what-is-the-difference-between-intstream-and-streaminteger#:~:text=on%20this%20post.-,What%20is%20the%20difference%20between%20both%3F,of%20methods%20in%20the%20javadoc.)
 * [Basic Boxing and Unboxing in java](https://www.geeksforgeeks.org/autoboxing-unboxing-java/)
 * [Boxing Unboxing in stream](https://www.geeksforgeeks.org/intstream-boxed-java/?ref=gcse)
+* [Collectors in java stream](https://www.geeksforgeeks.org/java-collectors/?ref=gcse)
 
 * Intermediate Operations:
-    - map
-    - filter
-    - sorted
+     - map()
+     - filter()
+     - sorted()
+     - distinct()
    * Terminal Operations:
-      - collect
-      - forEach
-      - reduce
-* [Streams Practice link1](https://www.java67.com/2014/04/java-8-stream-examples-and-tutorial.html)
+     - anyMatch()
+     - collect()
+     - count()
+     - findFirst()
+     - min()
+     - max()
+     - sum()
+     - average()
+* [St- reams Practice link1](https://www.java67.com/2014/04/java-8-stream-examples-and-tutorial.html) - done
 * [Streams Practice link2](https://blog.devgenius.io/15-practical-exercises-help-you-master-java-stream-api-3f9c86b1cf82)
  ```
 Arrays.stream(<arrayname>)
@@ -81,4 +88,5 @@ Stream.of(...values)
 IntStream, Stream, Stream<Integer>
 ```
 * [difference-between-stream-of-and-arrays-stream-method-in-java](https://www.geeksforgeeks.org/difference-between-stream-of-and-arrays-stream-method-in-java/?ref=rp)
-* 
+* [Method Reference link](https://www.geeksforgeeks.org/method-references-in-java-with-examples/?ref=gcse)
+* [Method Reference video](https://www.youtube.com/watch?v=5rbdwovjbw4&ab_channel=JavaTechie)
