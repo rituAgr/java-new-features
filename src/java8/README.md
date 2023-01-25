@@ -12,17 +12,6 @@
 7. [Date API](https://www.youtube.com/watch?v=9hUEiu_Ts68&ab_channel=CodeWithZ)
 8. Nashorn, JavaScript Engine
 
-
-### TO DO -
-Iteraltoring a list while modifying it via iterator
-
-### Done -
-* Default and static methods in the interface
-* Function and BiFunction functional Interface
-* Functional interface
-* Lambda Expression
-* Stream API
-
 #### Links -
 * [Default Method in interface](https://www.geeksforgeeks.org/default-methods-java/)
 * [Static methods in interface](https://www.geeksforgeeks.org/static-method-in-interface-in-java/?ref=gcse)
